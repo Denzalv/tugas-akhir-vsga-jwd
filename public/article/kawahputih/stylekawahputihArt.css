@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+*{
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.red{
+  color: #f8172d;
+  text-shadow: 2px 1px #fff;
+}
+
+.bg-gray {
+  background-color: #ebebeb;
+  border: 2px solid #f8172d;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f8172d !important;
+  font-weight: bold !important;
+}
+
+.btn-success {
+  border: none !important;
+}
+.btn-success:hover {
+  background-color: #f8172d !important;
+  border: none !important;
+}
+.move {
+  border: 2px solid #bdc3c7;
+  box-shadow: 0 1px 3px #000;
+  transition: all 0.5s;
+}
+.move:hover {
+  border-color: #f8172d;
+  box-shadow: 0 5px 7px #000;
+  color: #f8172d;
+}
+
+.banner {
+  background: url("../../../src/img/jumbotron/kawahjumbo.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+}
